@@ -1,0 +1,102 @@
+--- Identifying Variables ----
+Client Identifier - Not Needed
+Behaviour Date Key - Not Needed
+Behaviour Type - Categorical (9 Binary Categories)
+
+Tab 1 - Categorical (Binary)
+Tab 5 - Categorical (Binary)
+Tab 7 - Categorical (Multi Class 0 - 31)
+Tab 8 - Categorical (Multi Class 0 - 31)
+Tab 9 - Categorical (Multi Class 0 - 31)
+Tab 10 - Categorical (Binary)
+
+
+--- Variables Relating to All Accounts ----
+Total Num Inflow L3M - Discrete Numerical
+Total Amount Inflow L3M - Continuous Numerical
+Total Num Outflow L3M - Discrete Numerical
+Total Amount Outflow L3M - Continuous Numerical
+
+--- Variables Relating to Primary Savings Account -----
+Num Inflow G1 L3M - Discrete Numerical
+Num Money Send in G1 L3M - Discrete Numerical
+Num Elec Inflow in G1 L3M - Discrete Numerical
+Num Payment Inflow in G1 L3M - Discrete Numerical
+
+Num of ATM withdrawls From Primary Account L3M - Discrete Numerical
+Num Electronic Debit Order Outflows from Primary Account L3M - Discrete Numerical
+Num POS Outflow L3M - Discrete Numerical
+Num Loan Outflow L3M - Discrete Numerical
+Num Stop Order Outflow L3M - Discrete Numerical
+Num Prepaid Outflows L3M - Discrete Numerical
+Num Real Time Clearance Outflow L3M - Discrete Numerical
+Num Card Not Present Outflows L3M - Discrete Numerical
+Num Payment Outflows L3M - Discrete Numerical
+
+Total Outflow from Primary Account - Continuous Numerical
+Total Amount ATM Withdrawls L3M - Continuous Numerical
+Total Amount Electronic Debit Order Out L3M - Continuous Numerical
+Total Amount POS Outflow L3M - Continous Numerical
+Total Amount Loan Outflow L3M - Continuous Numerical
+Total Amount Stop Order Outflow L3M - Continuous Numerical
+Total Amount Prepaid Outlfow L3M - Continuous Numerical
+Total Amount Real Time Clearance Outflow L3M - Continuous Numerical
+Total Amount Card not Present Outflow L3M - Continuous Numerical
+Total Amount Payment Outflows L3M - Continous Numerical
+
+--- Variables Relating to Credit Account ----
+Num Credit Card Outflows L3M - Discrete Numerical
+Total Amount Credit Card Outflow L3M - Continuous Numerical
+Num POS Credit Card Outflows L3M - Discrete Numerical
+Total Amount POS Credit Card Outflows L3M - Continuous Numerical
+
+--- Variables Relating to Balances (Good Indicators) ----
+Min Balance L3M - Continous Numerical
+Average Min Balance L3M - Continuous Numerical
+Max Balance L3M - Continuous Numerical
+Average Max Balance L3M - Continous Numerical
+
+--- Credit Score Variables ----
+Total Rand Monthly Installment from 30 Days Ago on all Payment Profiles  - Numerical
+Total Current Balance as Percentage of of Original Balance on All Tradlines - Numerical
+Total Number of Open and Closed tradelines - Numerical
+Total Number of Open Satisfactory Tradelines - Numerical
+Total Number of Tradelines Opened in last 180 Days - Numerical
+Total Rand Value of Overdue balance on open tradeline 1 Year Ago - Numerical
+Number of Phone Contact numbers on Profile - Discrete Numerical
+Number of Open Satisfactory Tradelines as percentage of Open Tradeline - Numerical
+Average Number of Months Accounts have been Open - Numerical
+Percentage of Updates received within 2 Years with payment in period - Numerical
+Number of Months since most recent tradeline was opened - Numerical
+Number of Open Tradelines - Numerical
+Has Deed - Categorical (Binary)
+Debt Review Score - (Sectioned: <=705(high risk);   706-726;    727-750;    751-784;    >784(minimum risk)
+Max Deliquency Level across tradelines (open and closed) - Categorical
+Micro Finance Bureau Score - Numerical
+Thin File Flag - Categorical (Binary)
+Enquiry Only Flag - Categorical (Binary)
+Total Number of Bureau Accounts - Numerical
+Installment Value of All Bureau Accounts - Numerical
+Balance of All Bureau Accounts - Numerical
+Number of External Credit Cards - Numerical
+Number of Vehicle Loans - Numerical
+
+--- Electronic Payment Data ----
+Number of Transactions Done via USSD - Numerical
+Value of Transactions Done via USSD - Numerical
+Number of Transaction done via App - Numerical
+Value of Transactions done via App - Numerical
+Number of Electricity Purchases - Numerical
+Value of Electricity Purchases - Numerical
+Number of Airtime Purchaes - Numerical
+Value of Airtime Purchases - Numerical
+
+--- More Indicators ----
+CW1 - Continous Numerical
+CS1 - Discrete Categorical
+CS2 - Discrete Categorical
+CS3 - Discrete Categorical
+CS4 - Continous Numerical
+
+Number of Times Client had Insufficient Funds - Numerical
+

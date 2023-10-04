@@ -1,0 +1,81 @@
+Model: Balanced Accuracy, Recall
+
+APP:
+	Logistic: 0.563, 0.693
+	KNN: 0.536, 0.556
+	Decision Tree: 0.508, 0.552
+	Bayes: 0.527, 0.156
+	Random Forest: 0.500, 1.000
+
+
+
+BANK:
+	Logistic: 0.591, 0.892
+	KNN: 0.568, 0.780
+	Decision Tree: 0.529, 0.696
+	Bayes: 0.575, 0.473
+	Random Forest: 0.534, 0.979
+
+
+
+CARD:
+	Logistic: 0.506, 0.976
+	KNN: 0.525, 0.739
+	Decision Tree: 0.510, 0.618
+	Bayes: 0.509, 0.919
+	Random Forest: 0.500, 1.000
+
+
+
+CREDIT:
+	Logistic: 0.762, 0.960
+	KNN: 0.761, 0.941
+	Decision Tree: 0.677, 0.773
+	Bayes: 0.757, 0.807
+	Random Forest: 0.679, 0.959
+
+
+
+DEBIT:
+	Logistic: 0.670, 0.808
+	KNN: 0.644, 0.717
+	Decision Tree: 0.584, 0.636
+	Bayes: 0.593, 0.373
+	Random Forest: 0.623, 0.607
+
+
+
+FIN_ED:
+	Logistic: 0.627, 0.722
+	KNN: 0.595, 0.629
+	Decision Tree: 0.566, 0.595
+	Bayes: 0.510, 0.949
+	Random Forest: 0.593, 0.572
+
+
+
+LOAN:
+	Logistic: 0.582, 0.611
+	KNN: 0.526, 0.565
+	Decision Tree: 0.518, 0.542
+	Bayes: 0.563, 0.591
+	Random Forest: 0.500, 0.000
+
+
+
+SAVE:
+	Logistic: 0.606, 0.387
+	KNN: 0.583, 0.445
+	Decision Tree: 0.544, 0.467
+	Bayes: 0.549, 0.800
+	Random Forest: 0.500, 0.000
+
+
+
+VIRT_CARD:
+	Logistic: 0.668, 0.794
+	KNN: 0.618, 0.714
+	Decision Tree: 0.576, 0.654
+	Bayes: 0.542, 0.206
+	Random Forest: 0.611, 0.736
+

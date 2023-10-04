@@ -1,0 +1,15 @@
+
+Total Amount Inflow
+
+Total Amount Outflow
+ 
+Total Outflow from Primary Account
+
+Min Balance
+
+Average Min Balance
+
+Insufficient Funds
+
+
+ 
